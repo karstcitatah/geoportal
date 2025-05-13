@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home WebGIS</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/index.css"/>
+
+
+
+</head>
+<div id="preloader">
+  <div class="loader"></div>
+</div>
+<body>
+  <div class="navbar" id="navbar">
+    <div class="profile-nav">
+      <a href="" class="navbar-brand">
+        <img src="images/logo.png" alt="Logo" class="logo" />
+      </a><strong>
+      Geoportal Pembelajaran Karst Citatah</strong>
+    </div>
+  
+    <div class="nav-buttons">
+        <!-- <a href="index.html"><button>Profil</button></a> -->
+        <a href="map.html"><button>Dashboard</button></a>
+
+  
+      <!-- Dropdown: Data Spasial -->
+      <div class="dropdown">
+        <button class ="dropbtn">Data Spasial</button>
+        <div class="dropdown-content">
+          <a href="pc.html">Peta Cetak</a>
+          <a href="lg.html">Leaflet Geojson</a>
+        </div>
+      </div>
+  
+      <!-- Dropdown: Augmented Reality -->
+      <div class="dropdown">
+        <button class ="dropbtn">Augmented Reality</button>
+        <div class="dropdown-content">
+          <a href="ar.html">Coba AR</a>
+          <a href="vid.html">Video Demo AR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content" data-aos="fade-up">
+        <a href="#" class="navbar-brand" >
+          
+            <img src="images/logo.png" alt="Logo-1" class="logo-1" />
+          </a>
+      <h1 data-aos="fade-up">Selamat Datang di<br>Geoportal Pembelajaran Karst Citatah</h1>
+      <!-- <p data-aos="fade-up" data-aos-delay="750">Eksplorasi spasial yang interaktif dan informatif dimulai dari sini.</p> -->
+
+    </div>
+  </section>
+
+  <!-- Navbar -->
+   
+ 
+  
+
+  <!-- Profile Section -->
+  <section id="profile">
+    <h2 class="section-title" data-aos="fade-right">Profil</h2>
+    <div class="profile-container">
+      <div class="profile-box" data-aos="fade-up" data-aos-delay="100">
+        <h3>Kawasan Karst Citatah</h3>
+        <p align ="justify">Kawasan Karst Citatah di Jawa Barat merupakan salah satu warisan geologi yang penting dengan nilai ilmiah, ekologis, dan budaya yang tinggi, namun keberadaannya menghadapi ancaman serius akibat aktivitas manusia, seperti penambangan batu kapur dan alih fungsi lahan. Dalam pendidikan geografi, kawasan ini berpotensi menjadi sumber pembelajaran untuk memahami proses geomorfologi, dinamika lingkungan, dan pentingnya konservasi. Namun, keterbatasan akses fisik ke lokasi dan kurangnya media pembelajaran interaktif menyebabkan potensi kawasan ini belum termanfaatkan secara optimal. Teknologi web-based geographic information system (WEBGIS) berbasis augmented reality (AR) dapat menjadi solusi inovatif untuk menghadirkan kawasan Karst Citatah secara virtual, sehingga siswa dapat belajar melalui visualisasi interaktif yang menarik dan mendalam.</p>
+        <p align ="justify">Kawasan Karst Citatah di Kabupaten Bandung Barat merupakan salah satu wilayah yang memiliki nilai geologi, ekologi, dan budaya yang tinggi. Sebagai salah satu kawasan karst yang unik di Indonesia, Citatah menyimpan potensi besar untuk menjadi sumber pembelajaran geografi, baik di tingkat akademik maupun umum. Namun, pemanfaatan kawasan ini sebagai media pembelajaran belum optimal. Banyak masyarakat dan pelajar yang kurang memahami pentingnya kawasan karst dalam mendukung sistem hidrologi, penyediaan bahan tambang, dan keanekaragaman hayati. Hal ini memerlukan inovasi dalam penyampaian materi edukasi agar lebih menarik, interaktif, dan dapat menjangkau lebih banyak audiens.</p>
+
+      </div>
+      <!-- <div class="profile-box" data-aos="fade-up" data-aos-delay="200">
+        <h3>Deskripsi</h3>
+        <p>Pengembang WebGIS yang tertarik pada geospasial dan teknologi interaktif.</p>
+      </div>
+      <div class="profile-box" data-aos="fade-up" data-aos-delay="300">
+        <h3>Kontak</h3>
+        <p>ron@example.com</p>
+      </div> -->
+    </div>
+  </section>
+  <!-- Image + Description Section -->
+  <section class="image-section">
+    <img src="images/gis.jpg" alt="Geospasial" data-aos="fade-right" title="http://www.freepik.com">
+     <div class="image-description" data-aos="fade-left">
+      <h3>Teknologi Geographic Information System</h3>
+      <p align ="justify">
+        Teknologi Geographic Information System (GIS) telah banyak digunakan dalam berbagai bidang, termasuk Pendidikan. Pengembangan WebGIS berbasis Augmented Reality (AR) menghadirkan pendekatan baru yang memungkinkan penggunanya untuk mengeksplorasi informasi geografis secara visual dan interaktif. Dengan mengintegrasikan data geospasial dalam format digital dan elemen AR, pengguna dapat merasakan pengalaman belajar yang lebih nyata dan mendalam. Pendekatan ini diharapkan mampu meningkatkan minat belajar geografi serta pemahaman terhadap topik-topik kompleks seperti geomorfologi, hidrologi, dan konservasi lingkungan di kawasan karst.
+      </p>
+    </div>
+  </section>
+  <section class="image-section">
+    <div class="image-description" data-aos="fade-right">
+      <h3>Augmented Reality</h3>
+      <p align ="justify">
+        Penelitian ini dilakukan dengan mengembangkan web-based geographic information system (WEBGIS) berbasis augmented reality (AR) yang dirancang sebagai media pembelajaran interaktif dan inovatif untuk kawasan Karst Citatah. Sistem ini akan mengintegrasikan data spasial, peta interaktif, dan visualisasi 3D berbasis AR untuk memberikan pengalaman belajar yang mendalam.
+      </p>
+    </div>
+    <img src="images/ar.jpg" alt="Geospasial" data-aos="fade-left" title="http://www.freepik.com">
+  </section>
+  <section class="image-section">
+    <img src="images/sdgs4.png" alt="Geospasial" data-aos="fade-right" title="https://commons.wikimedia.org/">
+    <div class="image-description" data-aos="fade-left">
+      <h3>Sustainable Development Goals</h3>
+      
+      <p align ="justify">
+        Melalui WEBGIS, pengguna dapat menjelajahi kawasan Karst Citatah secara virtual, memahami struktur geomorfologi, dinamika lingkungan, serta dampak aktivitas manusia terhadap kawasan tersebut. Proses pengembangan meliputi pengumpulan dan pengolahan data geospasial, pembuatan model 3D AR yang representative, serta pengujian sistem dengan siswa untuk menilai efektivitasnya sebagai media pembelajaran. Dengan pendekatan ini, WEBGIS berbasis AR tidak hanya membantu siswa memahami materi geografi secara visual dan kontekstual, tetapi juga meningkatkan kesadaran akan pentingnya pelestarian kawasan karst. Sebagai bagian dari upaya menjaga keberlanjutan lingkungan yang dideskripsikan dari Sustainable Development Goals (SDGs) nomor 4 quality education.
+      </p>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <h2 class="section-title">Jelajahi Lebih Lanjut</h2>
+    <div class="cta-cards">
+      <a href="map.html" class="cta-card">
+        <img src="images/dashboard.png" alt="Dashboard">
+        <h3>Dashboard</h3>
+        <p>Lihat visualisasi data dan peta interaktif.</p>
+      </a>
+      <a href="pc.html" class="cta-card">
+        <img src="images/download.png" alt="Download">
+        <h3>Download Data</h3>
+        <p>Unduh peta cetak.</p>
+      </a>
+      <a href="lg.html" class="cta-card">
+        <img src="images/leaflet.png" alt="Leaflet">
+        <h3>Leaflet Geojson</h3>
+        <p>Jelajahi data spasial dalam bentuk leaflet geojson.</p>
+      </a>
+      <a href="ar.html" class="cta-card">
+        <img src="images/mountain.png" alt="AR">
+        <h3>Coba Augmented Reality</h3>
+        <p>Jelajahi visual 3D dalam lingkungan nyata.</p>
+      </a>
+      <a href="vid.html" class="cta-card">
+        <img src="images/youtube.png" alt="AR">
+        <h3>Lihat Bagaiman Augmented Reality Bekerja</h3>
+        <p>Lihat bagaimana data DEM Karst Citatah divisualisasikan dalam lingkungan nyata.</p>
+      </a>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-column">
+        <img src="images/logo.png" alt="Logo" class="footer-logo">
+        <h3>Geoportal Pembelajaran Karst Citatah</h3>
+        <p>Platform WebGIS berbasiskan Augmented Reality.</p>
+      </div>
+  
+      <div class="footer-column">
+        <h4>Kontak Tim</h4>
+        <div class="contact-person">
+          <strong>Haikal Muhammad Ihsan, S.Pd., M.Sc.</strong><br>
+          Email: <a href="mailto:haikalmihsan@upi.edu">haikalmihsan@upi.edu</a><br>
+          <!-- WhatsApp: <a href="https://wa.me/6281111111111">+62 811-1111-1111</a> -->
+        </div>
+        <div class="contact-person">
+          <strong>Silmi Afina Aliyan, S.T., M.T.</strong><br>
+          Email: <a href="mailto:aliyan.silmi@upi.edu">aliyan.silmi@upi.edu</a><br>
+          <!-- WhatsApp: <a href="https://wa.me/6281222222222">+62 812-2222-2222</a> -->
+        </div>
+        <div class="contact-person">
+          <strong>Teguh Budiman, S.Geo.</strong><br>
+          Email: <a href="mailto:teguhbudiman@upi.edu">teguhbudiman@upi.edu</a><br>
+          <!-- WhatsApp: <a href="https://wa.me/6281333333333">+62 813-3333-3333</a> -->
+        </div>
+      </div>
+  
+      <div class="footer-column">
+        <h4>Informasi Pembuat</h4>
+        <p>Dirancang & dikembangkan oleh:</p>
+        <p><strong>Tim Pengembangan WEBGIS Berbasis Augmented Reality Sebagai Media Pembelajaran Geografi Di 
+          Kawasan Karst Citatah </strong><br>Program Studi Sains Informasi Geografi</p>
+        <p>&copy; 2025 All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: false
+    });
+
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > window.innerHeight * 0.7) {
+        navbar.classList.add('show');
+      } else {
+        navbar.classList.remove('show');
+      }
+    });
+      // Hilangkan preloader saat halaman selesai dimuat
+  window.addEventListener('load', function () {
+    document.getElementById('preloader').style.display = 'none';
+  });
+
+  // Tampilkan preloader saat klik link
+  document.querySelectorAll('a[href]').forEach(link => {
+    link.addEventListener('click', function (e) {
+      const target = this.getAttribute('href');
+      if (target && !target.startsWith('#') && !target.startsWith('javascript')) {
+        document.getElementById('preloader').style.display = 'flex';
+      }
+    });
+  });
+  </script>
+</body>
+</html>
