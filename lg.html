@@ -14,15 +14,6 @@
 </div>
 <body>
 
-  <!-- Hero Section -->
-  <!-- <section class="hero">
-    <div class="hero-content" data-aos="fade-up">
-        <a href="#" class="navbar-brand">
-            <img src="images/logo.png" alt="Logo-1" class="logo-1" />
-          </a>
-      <h1 data-aos="fade-up">Selamat Datang di<br>Geoportal Pembelajaran Karst Citatah</h1> -->
-      <!-- <p data-aos="fade-up" data-aos-delay="750">Eksplorasi spasial yang interaktif dan informatif dimulai dari sini.</p> -->
-
     </div>
   </section>
 
@@ -64,7 +55,23 @@
 
   <div class="container">
     <!-- Loop 7 Categories -->
-    <div class="category" id="cat1">
+    <div class="category">
+      <div class="category-header" onclick="toggleItems('list8')">Semua Data </div>
+      <div class="item-list" id="list8">
+        <div class="item">
+          <div class="item-title">Lihat Semua Data</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Semua Data/Semua Data.html', '_blank')">Leaflet</button>
+            
+          </div>
+           
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div class="category">
       <div class="category-header" onclick="toggleItems('list1')">Batas Administrasi</div>
       <div class="item-list" id="list1">
         <div class="item">
