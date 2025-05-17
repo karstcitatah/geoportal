@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "Mata Air",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.38126966177056, -6.861899416092467 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.401474854256705, -6.841414342736528 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.406665162514813, -6.839430043882069 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.408143924529114, -6.839321016233574 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.42325059146566, -6.838621194422365 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.432895344296156, -6.8339896190495 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.437767183044599, -6.822230805941065 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.443055229230396, -6.823807981011891 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.445380687753939, -6.820213162222093 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.449608501414517, -6.817937336940886 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.468517382106583, -6.813533049149581 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Sebaran mata air", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.446842856715335, -6.829158436979032 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Mata air panas (keluar dari rekahan lava)", "FCODE": null, "REMARK": null, "METADATA": null, "SRS_ID": null, "SIMOBJ": null, "UMROBJ": 0.0, "SHAPE_Leng": 0.0, "SHAPE_Area": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 107.355309053281417, -6.868308013431242 ] } }
+]
+}
