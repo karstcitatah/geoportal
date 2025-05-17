@@ -44,7 +44,7 @@
   }).addTo(map);
 
   // Memuat dan menambahkan GeoJSON
-    fetch('/leaflet_geojson/Batas%20Administrasi/Batas%20Kabupaten.geojson')  // Pastikan path file benar
+    fetch('/leaflet_geojson/Batas Administrasi/Batas Kabupaten.geojson')  // Pastikan path file benar
       .then(response => response.json())
       .then(data => {
         const geojsonLayer = L.geoJSON(data, {
@@ -61,7 +61,7 @@
           }
         }).addTo(map);
       })
-      fetch('/leaflet_geojson/Batas%20Administrasi/Batas%20Kecamatan.geojson')  // Pastikan path file benar
+      fetch('/leaflet_geojson/Batas Administrasi/Batas Kecamatan.geojson')  // Pastikan path file benar
       .then(response => response.json())
       .then(data => {
         const geojsonLayer = L.geoJSON(data, {
@@ -78,7 +78,7 @@
           }
         }).addTo(map);
        })
-      fetch('/leaflet_geojson/Eksokarst%20dan%20Endokarst/Batugamping.geojson')  // Pastikan path file benar
+      fetch('/leaflet_geojson/Eksokarst dan Endokarst/Batugamping.geojson')  // Pastikan path file benar
       .then(response => response.json())
       .then(data => {
         const geojsonLayer = L.geoJSON(data, {
@@ -95,7 +95,7 @@
           }
         }).addTo(map);
       })
-      fetch('/leaflet_geojson/Eksokarst%20dan%20Endokarst/Gua.geojson')  // Pastikan path file benar
+      fetch('/leaflet_geojson/Eksokarst dan Endokarst/Gua.geojson')  // Pastikan path file benar
       .then(response => response.json())
       .then(data => {
         const geojsonLayer = L.geoJSON(data, {
@@ -112,7 +112,7 @@
           }
         }).addTo(map);
       })
-      fetch('/leaflet_geojson/Eksokarst%20dan%20Endokarst/Mata%20Air.geojson')  // Pastikan path file benar
+      fetch('/leaflet_geojson/Eksokarst dan Endokarst/Mata Air.geojson')  // Pastikan path file benar
       .then(response => response.json())
       .then(data => {
         const geojsonLayer = L.geoJSON(data, {
@@ -129,7 +129,7 @@
           }
         }).addTo(map);
       })
-      fetch('/leaflet_geojson/Kawasan%20Betang%20Alam%20Karst/Area%20Karst.geojson')  // Pastikan path file benar
+      fetch('/leaflet_geojson/Kawasan Betang Alam Karst/Area Karst.geojson')  // Pastikan path file benar
       .then(response => response.json())
       .then(data => {
         const geojsonLayer = L.geoJSON(data, {
@@ -146,7 +146,7 @@
           }
         }).addTo(map);
       })
-      fetch('/leaflet_geojson/Kawasan%20Betang%20Alam%20Karst/Bentang%20Alam%20Karst.geojson')  // Pastikan path file benar
+      fetch('/leaflet_geojson/Kawasan Betang Alam Karst/Bentang Alam Karst.geojson')  // Pastikan path file benar
       .then(response => response.json())
       .then(data => {
         const geojsonLayer = L.geoJSON(data, {
@@ -163,7 +163,7 @@
           }
         }).addTo(map);
       })
-      fetch('/leaflet_geojson/Kawasan%20Betang%20Alam%20Karst/Kawasan%20Karst%20Citatah.geojson')  // Pastikan path file benar
+      fetch('/leaflet_geojson/Kawasan Betang Alam Karst/Kawasan Karst Citatah.geojson')  // Pastikan path file benar
       .then(response => response.json())
       .then(data => {
         const geojsonLayer = L.geoJSON(data, {
