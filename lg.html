@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home WebGIS</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/lg.css"/>
+</head>
+
+
+<div id="preloader">
+  <div class="loader"></div>
+</div>
+<body>
+
+    </div>
+  </section>
+
+  <!-- Navbar -->
+
+  <div class="navbar" id="navbar">
+    <div class="profile-nav">
+      <a href="" class="navbar-brand">
+        <img src="images/logo.png" alt="Logo" class="logo" />
+      </a><strong>
+      Leaflet Geojson Geoportal Pembelajaran Karst Citatah</strong>
+    </div>
+
+    <div class="nav-buttons">
+        <a href="index.html"><button>Profil</button></a>
+        <a href="map.html"><button>Dashboard</button></a>
+
+      <!-- Dropdown: Data Spasial -->
+      <div class="dropdown">
+        <button class ="dropbtn">Data Spasial</button>
+        <div class="dropdown-content">
+          <a href="pc.html">Peta Cetak</a>
+          <a href="lg.html">Leaflet Geojson</a>
+        </div>
+      </div>
+  
+      <!-- Dropdown: Augmented Reality -->
+      <div class="dropdown">
+        <button class ="dropbtn">Augmented Reality</button>
+        <div class="dropdown-content">
+          <a href="ar.html">Coba AR</a>
+          <a href="vid.html">Video Demo AR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="main-content">
+
+  <div class="container">
+    <!-- Loop 7 Categories -->
+    <div class="category">
+      <div class="category-header" onclick="toggleItems('list8')">Semua Data </div>
+      <div class="item-list" id="list8">
+        <div class="item">
+          <div class="item-title">Lihat Semua Data</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Semua Data.html', '_blank')">Leaflet</button>
+            
+          </div>
+           
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div class="category">
+      <div class="category-header" onclick="toggleItems('list1')">Batas Administrasi</div>
+      <div class="item-list" id="list1">
+        <div class="item">
+          <div class="item-title">Batas Kabupaten</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Batas Kabupaten.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Batas Kabupaten.geojson', '_blank')">Geojson</button>
+          </div>
+           
+          
+        </div>
+        <div class="item">
+         <div class="item-title">Batas Kecamatan</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Batas Kecamatan.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Batas Kecamatan.geojson', '_blank')">Geojson</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repeat with different IDs -->
+    <div class="category">
+      <div class="category-header" onclick="toggleItems('list2')">Eksokarst dan Endokarst</div>
+      <div class="item-list" id="list2">
+        <div class="item">
+          <div class="item-title">Batugamping</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Batugamping.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Batugamping.geojson', '_blank')">Geojson</button>
+          </div>
+        </div>
+         <div class="item">
+          <div class="item-title">Gua</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Gua.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Gua.geojson', '_blank')">Geojson</button>
+          </div>
+        </div>
+           <div class="item">
+          <div class="item-title">Mata Air</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Mata Air.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Mata Air.geojson', '_blank')">Geojson</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="category">
+      <div class="category-header" onclick="toggleItems('list3')">Kawasan Bentang Alam Karst</div>
+      <div class="item-list" id="list3">
+        <div class="item">
+          <div class="item-title">Area Karst</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Area Karst.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Area Karst.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+        <div class="item">
+          <div class="item-title">Bentang Alam Karst</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Bentang Alam Karst.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Bentang Alam Karst.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+        <div class="item">
+          <div class="item-title">Kawasan Karst Citatah</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Kawasan Karst Citatah.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Kawasan Karst Citatah.geojson', '_blank')">Geojson</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category">
+      <div class="category-header" onclick="toggleItems('list4')">Rencana Pola Ruang</div>
+      <div class="item-list" id="list4">
+         <div class="item">
+          <div class="item-title">Jalur Transportasi</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Jalur Transportasi.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Jalur Transportasi.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+          <div class="item">
+          <div class="item-title">Jembatan</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Jembatan.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Jembatan.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+          <div class="item">
+          <div class="item-title">Pola Ruang</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Pola Ruang.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Pola Ruang.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="category">
+      <div class="category-header" onclick="toggleItems('list5')">Struktur Geologi</div>
+      <div class="item-list" id="list5">
+        <div class="item">
+          <div class="item-title">Formasi Geologi</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Formasi Geologi.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Formasi Geologi.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+           <div class="item">
+          <div class="item-title">Patahan Lembang</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Patahan Lembang.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Patahan Lembang.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+          <div class="item">
+          <div class="item-title">Sesar</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Sesar.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Sesar.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="category">
+      <div class="category-header" onclick="toggleItems('list6')">Tambang dan Industri</div>
+      <div class="item-list" id="list6">
+        <div class="item">
+          <div class="item-title">Area Industri</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Area Industri.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Area Industri.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+          <div class="item">
+          <div class="item-title">Area Tambang</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Area Tambang.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Area Tambang.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+          <div class="item">
+          <div class="item-title">Tambang Pasir</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Tambang Pasir.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Tambang Pasir.geojson', '_blank')">Geojson</button>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="category">
+      <div class="category-header" onclick="toggleItems('list7')">Wisata</div>
+      <div class="item-list" id="list7">
+        <div class="item">
+          <div class="item-title">Lokasi Wisata</div>
+          <div class="buttons">
+            <button class="btn-link1" onclick="window.open('leaflet_geojson/Lokasi Wisata.html', '_blank')">Leaflet</button>
+            <button class="btn-link2" onclick="window.open('leaflet_geojson/Lokasi Wisata.geojson', '_blank')">Geojson</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-column">
+        <img src="images/logo.png" alt="Logo" class="footer-logo">
+        <h3>Geoportal Pembelajaran Karst Citatah</h3>
+        <p>Platform WebGIS berbasiskan Augmented Reality.</p>
+      </div>
+  
+      <div class="footer-column">
+        <h4>Kontak Tim</h4>
+        <div class="contact-person">
+          <strong>Haikal Muhammad Ihsan, S.Pd., M.Sc.</strong><br>
+          Email: <a href="mailto:haikalmihsan@upi.edu">haikalmihsan@upi.edu</a><br>
+          <!-- WhatsApp: <a href="https://wa.me/6281111111111">+62 811-1111-1111</a> -->
+        </div>
+        <div class="contact-person">
+          <strong>Silmi Afina Aliyan, S.T., M.T.</strong><br>
+          Email: <a href="mailto:aliyan.silmi@upi.edu">aliyan.silmi@upi.edu</a><br>
+          <!-- WhatsApp: <a href="https://wa.me/6281222222222">+62 812-2222-2222</a> -->
+        </div>
+        <div class="contact-person">
+          <strong>Teguh Budiman, S.Geo.</strong><br>
+          Email: <a href="mailto:teguhbudiman@upi.edu">teguhbudiman@upi.edu</a><br>
+          <!-- WhatsApp: <a href="https://wa.me/6281333333333">+62 813-3333-3333</a> -->
+        </div>
+      </div>
+  
+      <div class="footer-column">
+        <h4>Informasi Pembuat</h4>
+        <p>Dirancang & dikembangkan oleh:</p>
+        <p><strong>Tim Pengembangan WEBGIS Berbasis Augmented Reality Sebagai Media Pembelajaran Geografi Di 
+          Kawasan Karst Citatah </strong><br>Program Studi Sains Informasi Geografi</p>
+        <p>&copy; 2025 All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: false
+    });
+
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > window.innerHeight * 0.7) {
+        navbar.classList.add('show');
+      } else {
+        navbar.classList.remove('show');
+      }
+    });
+
+          // Hilangkan preloader saat halaman selesai dimuat
+  window.addEventListener('load', function () {
+    document.getElementById('preloader').style.display = 'none';
+  });
+      // Tampilkan preloader saat klik link
+  document.querySelectorAll('a[href]').forEach(link => {
+    link.addEventListener('click', function (e) {
+      const target = this.getAttribute('href');
+      if (target && !target.startsWith('#') && !target.startsWith('javascript')) {
+        document.getElementById('preloader').style.display = 'flex';
+      }
+    });
+  });
+
+  function openMap(select) {
+      const url = select.value;
+      if (url) {
+        window.open(url, '_blank');
+      }
+    }
+
+
+
+    function toggleItems(id) {
+      const list = document.getElementById(id);
+      const isVisible = list.style.display === 'block';
+      list.style.display = isVisible ? 'none' : 'block';
+    }
+
+  </script>
+</body>
+</html>
+
